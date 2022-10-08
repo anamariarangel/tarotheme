@@ -1071,3 +1071,18 @@ article.post h5{
 .nav-links .prev{
     padding-left: 0;
 }
+
+@media all and (min-width: 768px) {
+    .alignfull {
+      margin: 30px calc(50% - 50vw);
+      max-width: 100vw;
+      width: 100vw;
+    }
+    .alignwide {
+      margin: 30px calc(25% - 25vw);
+      }
+  }
+  
+  .site-content{
+      overflow: hidden;
+  }

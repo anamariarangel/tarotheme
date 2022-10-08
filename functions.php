@@ -41,7 +41,11 @@ function amr_config() {
     add_theme_support('title-tag'); //recuperar títulos (erro 404)
     add_theme_support('automatic-feed-links');
     add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ));
-    }
+    add_theme_support('align-wide');
+    add_theme_support('responsive-embeds');
+    add_theme_support('editor-styles');
+}
+
 
 add_action('after_setup_theme', 'amr_config',0);
 
